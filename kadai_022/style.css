@@ -26,7 +26,7 @@ main {
 }
 .contents {
   border: solid 3px rgb(238, 204, 204);
-  width: 25%;
+  flex-basis: 25%;
   padding: 10px 15px;
   margin: 20px 0px;
   text-align: center;
@@ -62,7 +62,7 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
   #parent {
-    display: block;
+    flex-direction: column;
   }
   .contents h2{
     font-size: 30px;
